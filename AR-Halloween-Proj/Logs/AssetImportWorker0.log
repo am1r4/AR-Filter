@@ -1,0 +1,707 @@
+Unity Editor version:    2022.3.12f1 (4fe6e059c7ef)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.0 (Build 23A344)
+Darwin version:          23.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+
+The following diagnostic switches are modified from their default values:
+	ProfileOpenCLJobs: False (default True)
+
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/amira/Downloads/repos/AR-Filter/AR-Halloween-Proj
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56798
+Successfully changed project path to: /Users/amira/Downloads/repos/AR-Filter/AR-Halloween-Proj
+/Users/amira/Downloads/repos/AR-Filter/AR-Halloween-Proj
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7959909120] Host "[IP] 192.168.10.223 [Port] 0 [Flags] 2 [Guid] 125611131 [EditorId] 125611131 [Version] 1048832 [Id] OSXEditor(0,Amiras-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7959909120] Host "[IP] 192.168.10.223 [Port] 0 [Flags] 2 [Guid] 125611131 [EditorId] 125611131 [Version] 1048832 [Id] OSXEditor(0,Amiras-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Refreshing native plugins compatible for Editor in 14.83 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/amira/Downloads/repos/AR-Filter/AR-Halloween-Proj/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.002446 seconds.
+- Loaded All Assemblies, in  0.237 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+[usbmuxd] Attached: 3 00008110-000E3DA63EB8801E
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Diagnostic switches are active and may impact performance or degrade your user experience. Switches can be configured through the Diagnostics section in the Preferences window.
+	ProfileOpenCLJobs: False
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.227 seconds
+Domain Reload Profiling: 465ms
+	BeginReloadAssembly (72ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (73ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (88ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (228ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (188ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (74ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (78ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.472 seconds
+Refreshing native plugins compatible for Editor in 3.72 ms, found 10 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Diagnostic switches are active and may impact performance or degrade your user experience. Switches can be configured through the Diagnostics section in the Preferences window.
+	ProfileOpenCLJobs: False
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.741 seconds
+Domain Reload Profiling: 1213ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (339ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (109ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (741ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (628ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (327ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.91 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4862 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 109 unused Assets / (1.5 MB). Loaded Objects now: 5285.
+Memory consumption went from 176.0 MB to 174.5 MB.
+Total: 3.265250 ms (FindLiveObjects: 0.165958 ms CreateObjectMapping: 0.062875 ms MarkObjects: 2.450750 ms  DeleteObjects: 0.585041 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28644.049633 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face 1.prefab
+  artifactKey: Guid(bdde63a18df324e27b3cad1a5ee8f48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face 1.prefab using Guid(bdde63a18df324e27b3cad1a5ee8f48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b8aa486d65094df94d07b950a848a9') in 0.013920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 372.882035 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2a946fec10f24762c1daf22acc4a9f') in 0.051384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 99.166526 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0d3ba2fdd25f55f37455e6f7e3ca46') in 0.006022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.986259 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5355e5659da6f79c6df9f9bbeaa926b6') in 0.004808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 212.654208 seconds.
+  path: Assets/_BasicFaceFilter/Materials/horns.fbx
+  artifactKey: Guid(963a178fa130c408f8e2440fa3a7b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/horns.fbx using Guid(963a178fa130c408f8e2440fa3a7b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5030395b2824d1c5beb519d3e77e65') in 0.084160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 115.858447 seconds.
+  path: Assets/_BasicFaceFilter/Materials/horns2.fbx
+  artifactKey: Guid(f27598d7e4e5a4021a35c2a45893aecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/horns2.fbx using Guid(f27598d7e4e5a4021a35c2a45893aecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77511e5f54b6201de39b98274644420d') in 0.025505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 490.074104 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fa06f3f996d60be8b0235a975dc9e9') in 0.022269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 28.071168 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e475fbe6592d5ab67fef704c80408995') in 0.009352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 3.012975 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64a2796136a1a2f82f6c96af61813fc') in 0.005973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 162.434400 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5516499e8070a9d8d4a2e28d447ea68a') in 0.007406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.801422 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4490cd42a06ac9c198403d86ed7ebf3') in 0.005796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 3.847436 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b29aca86d37d3b9b72643afb603731') in 0.005512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 4.646623 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b616296ef6ce92d7723abc5effe7b3a7') in 0.005866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 35.978933 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7e0bb5e1e5bd4d6ba2d202f3ba31dd') in 0.007380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 1.569525 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e5239a1eb04724f9e5515898519ecb') in 0.005505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.830823 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914ecaf340b099681a9879ea4173b427') in 0.005824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.622754 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e0098c4e861c65ab54780f2a4b54f5') in 0.005508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 7.681958 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6df6a222c24d08b836580ef0352e13a') in 0.006021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 4.629955 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa99e11907f5bc37e23064017504b4d5') in 0.005609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 3.647559 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bb82ec9751e4f192d7864c72d72b61') in 0.005906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.211882 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f051b91a89e0a1f5ff591a23fdf304') in 0.005914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 8.306623 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb85d1432f39a874cf2da870a89c7b83') in 0.005625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 4.834235 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0492f44a3b7559a1e87d4d4904a57dd1') in 0.006172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.025761 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3b8ca19200e63a5c64f3baf138d211') in 0.005677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 10.680109 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8359d98a0f700eb0b231580a5cdc86d3') in 0.005748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 26.875421 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddccaec34c71aa447666d553108f241') in 0.007286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.006124 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd2b40a89cc73713360dfc6c765304a') in 0.006184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 9.707728 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa225e054ec8e8d0a35e717020f1b18c') in 0.005919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.424398 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454f0bba3da29f9225a9ac54955e21e0') in 0.006321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 1.183019 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748599f210d40f7cbc9620e1cee367ad') in 0.005523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 13.951447 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf4b10001a31e9ee6ce238fab87286b') in 0.005788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 4.233413 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909296dcc8eb2b403af2cde70cac2649') in 0.005640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 3.842118 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f622a40bbb295c34f7a3f3af65e605bf') in 0.005383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.422314 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9d9ab88e98590b80642ec1ddea4fe5') in 0.005955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 7.505623 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba6c9b1b775f44e27f53ef7353ba0c7') in 0.005722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 3.036995 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5576b575b9e9452bd2cf8acfb5ff509a') in 0.005658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 3.401418 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e620bd93fcc74be698040e203e43af64') in 0.006144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 6.065703 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29316ebf3688e3a9e8fcc1e356dbbf4') in 0.005780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.626553 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0b1efd84dae5f2222a9eca9478019f') in 0.005760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 8.673186 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e56ce0cb769eb5bceef02baecd14979') in 0.005874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 12.127448 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7d73f9cf0d512c510c94a80d70a4dc') in 0.006165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.603881 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ea3777217d657361ea0eddaa82442e') in 0.005537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.228122 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b07f744e2ea4da7e3f8f36659bce82e') in 0.006692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 3.238600 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962f3d5a892f360f97c870fd8e42bd6e') in 0.005534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.626099 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757027bb672b8c92bb786dced100782e') in 0.005712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.215733 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca494a362a0cf078931425ba81bcd55') in 0.005667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.618832 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f5ceb067c70c1a162484ff61bb62d7') in 0.005859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 31.958257 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dece01cda1556dac68c840876a97293') in 0.012096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.812419 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a229fdea560c3ee1a0fff146663b0296') in 0.005475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 5.053559 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7798b299d35cb3694d6700009e33ac7') in 0.005783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 3.017212 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3705aef6b35ce33c3709b01738e4eafd') in 0.005832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 1.804906 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609a909a319f2c3d64495bcf4802a969') in 0.005727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.214315 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1cb773094c2754f2fd9b370aecab22') in 0.005718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 3.035622 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdea83c8514d506abbd4f96f2de76441') in 0.005629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 7.072445 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e7aef36a8f6c672384c920045b771c') in 0.005883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.424880 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0be384379f2cf0f2816785d7be5789') in 0.005940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 6.880947 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59feb35f04643970371a1afad38a19e6') in 0.005671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 43.623438 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b05ee14ad4c39655a1fae9ddd2585a') in 0.008166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 32.438000 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36a5d4ad02348308f129469b3ee86f5') in 0.008037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 305.183143 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/horns.fbx
+  artifactKey: Guid(963a178fa130c408f8e2440fa3a7b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/horns.fbx using Guid(963a178fa130c408f8e2440fa3a7b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebaf5ff1afc1154a40624a8872d14a5') in 0.039398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 34.786476 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f217104b576e82ea80cdabeaf97af9') in 0.017072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 80.189028 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/horns.fbx
+  artifactKey: Guid(963a178fa130c408f8e2440fa3a7b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/horns.fbx using Guid(963a178fa130c408f8e2440fa3a7b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b1efc8e836610eee4bad519f47b966') in 0.019552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
