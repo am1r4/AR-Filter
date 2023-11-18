@@ -225,3 +225,27 @@ Received Import Request.
 Start importing Assets/_BasicFaceFilter/Prefabs/Face_Reference_Mesh.prefab using Guid(bc8e54b1d62bd2f499826cdfa9d5d708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fb2e0f687b86804dd3ca9d358cd74d') in 0.004366 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 1841.581879 seconds.
+  path: Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035_2K-PNG_Color.png
+  artifactKey: Guid(cf6cc07a8dc3747b7be687d9c467f82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035_2K-PNG_Color.png using Guid(cf6cc07a8dc3747b7be687d9c467f82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3ffc9732cf533e63a361e3e2b4fc9a') in 0.097651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035_2K-PNG_Metalness.png
+  artifactKey: Guid(5c073c1447142405b898a9016a803835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035_2K-PNG_Metalness.png using Guid(5c073c1447142405b898a9016a803835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134ab27cf23845d8b1912598e5c6ca09') in 0.005672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035_2K-PNG_Displacement.png
+  artifactKey: Guid(69dec1283df6f4d24a284d42811b19ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035_2K-PNG_Displacement.png using Guid(69dec1283df6f4d24a284d42811b19ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab773bce055ca40062d032c322d7c38') in 0.006701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2

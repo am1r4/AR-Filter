@@ -705,3 +705,75 @@ Received Import Request.
 Start importing Assets/_BasicFaceFilter/Prefabs/horns.fbx using Guid(963a178fa130c408f8e2440fa3a7b7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b1efc8e836610eee4bad519f47b966') in 0.019552 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 42.405335 seconds.
+  path: Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG
+  artifactKey: Guid(b47db8211978f4b6db8c7955b833244e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG using Guid(b47db8211978f4b6db8c7955b833244e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d1b44da90111da9fde45e47a1ba568') in 0.002988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066802 seconds.
+  path: Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035.png
+  artifactKey: Guid(1270f3e13610c4be7af693c6f4457fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035.png using Guid(1270f3e13610c4be7af693c6f4457fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9364a25bb2e18aea35d98f688e90b8') in 0.098212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035_2K-PNG_Roughness.png
+  artifactKey: Guid(bcb13038178d34a2b83d85b70178eb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035_2K-PNG_Roughness.png using Guid(bcb13038178d34a2b83d85b70178eb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853aa5b339d02dd45974dec351c2b524') in 0.006579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035_2K-PNG_NormalGL.png
+  artifactKey: Guid(4a3a676c48ba34aefa461a93d8013e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035_2K-PNG_NormalGL.png using Guid(4a3a676c48ba34aefa461a93d8013e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81201fe4b313c5ab650ab536b4a776b9') in 0.006539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035_2K-PNG_NormalDX.png
+  artifactKey: Guid(61e62b657a149484eae3fd4f402ea077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035_2K-PNG_NormalDX.png using Guid(61e62b657a149484eae3fd4f402ea077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99732a5eee2f6b66dfd1a4124a3b8519') in 0.005934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.749785 seconds.
+  path: Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035_2K-PNG.usdc
+  artifactKey: Guid(0d2cde9f40cf24934813fd3f9f8af3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035_2K-PNG.usdc using Guid(0d2cde9f40cf24934813fd3f9f8af3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7f73b6bc67a18dffb685e0b66072e3') in 0.000757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.264897 seconds.
+  path: Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035_2K-PNG.mtlx
+  artifactKey: Guid(bfb2b7176e2e3466aad3332b3883f69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/Metal035_2K-PNG/Metal035_2K-PNG.mtlx using Guid(bfb2b7176e2e3466aad3332b3883f69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed3792b49d40af1e05799a479012a03') in 0.000531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.551438 seconds.
+  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a091fa4dfe7886e89aeeec9c2d99e79f') in 0.009384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 90.428258 seconds.
+  path: Assets/_BasicFaceFilter/Materials/New Material.mat
+  artifactKey: Guid(5295e2aa9d704489f816ea14a23dab47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Materials/New Material.mat using Guid(5295e2aa9d704489f816ea14a23dab47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53990688ee6e9de9ab75dfb8672e1761') in 0.004964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
