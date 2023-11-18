@@ -26,7 +26,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54896
+55455
 Successfully changed project path to: /Users/amira/Downloads/repos/AR-Filter/AR-Halloween-Proj
 /Users/amira/Downloads/repos/AR-Filter/AR-Halloween-Proj
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -60,12 +60,12 @@ Successfully changed project path to: /Users/amira/Downloads/repos/AR-Filter/AR-
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7959909120] Host "[IP] 192.168.10.99 [Port] 0 [Flags] 2 [Guid] 2421768928 [EditorId] 2421768928 [Version] 1048832 [Id] OSXEditor(0,Amiras-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7959909120] Host "[IP] 192.168.10.99 [Port] 0 [Flags] 2 [Guid] 1940842772 [EditorId] 1940842772 [Version] 1048832 [Id] OSXEditor(0,Amiras-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7959909120] Host "[IP] 192.168.10.99 [Port] 0 [Flags] 2 [Guid] 2421768928 [EditorId] 2421768928 [Version] 1048832 [Id] OSXEditor(0,Amiras-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7959909120] Host "[IP] 192.168.10.99 [Port] 0 [Flags] 2 [Guid] 1940842772 [EditorId] 1940842772 [Version] 1048832 [Id] OSXEditor(0,Amiras-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
-Refreshing native plugins compatible for Editor in 23.01 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 13.09 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -80,13 +80,13 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56757
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56371
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.002597 seconds.
-- Loaded All Assemblies, in  0.262 seconds
+Registered in 0.001087 seconds.
+- Loaded All Assemblies, in  0.201 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
@@ -96,36 +96,36 @@ Native extension for OSXStandalone target not found
 Diagnostic switches are active and may impact performance or degrade your user experience. Switches can be configured through the Diagnostics section in the Preferences window.
 	ProfileOpenCLJobs: False
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.204 seconds
-Domain Reload Profiling: 466ms
-	BeginReloadAssembly (91ms)
+- Finished resetting the current domain, in  0.211 seconds
+Domain Reload Profiling: 412ms
+	BeginReloadAssembly (45ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (25ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (107ms)
-		LoadAssemblies (91ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (97ms)
+		LoadAssemblies (44ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (105ms)
-			TypeCache.Refresh (104ms)
-				TypeCache.ScanAssembly (94ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (85ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (204ms)
+	FinalizeReload (211ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (168ms)
+		SetupLoadedEditorAssemblies (174ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (62ms)
+			InitializePlatformSupportModulesInManaged (72ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (73ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -133,8 +133,8 @@ Domain Reload Profiling: 466ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.438 seconds
-Refreshing native plugins compatible for Editor in 3.85 ms, found 10 plugins.
+- Loaded All Assemblies, in  0.419 seconds
+Refreshing native plugins compatible for Editor in 3.98 ms, found 10 plugins.
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -144,6 +144,7 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
 Diagnostic switches are active and may impact performance or degrade your user experience. Switches can be configured through the Diagnostics section in the Preferences window.
 	ProfileOpenCLJobs: False
 Mono: successfully reloaded assembly
@@ -153,48 +154,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.717 seconds
-Domain Reload Profiling: 1156ms
-	BeginReloadAssembly (75ms)
+- Finished resetting the current domain, in  0.644 seconds
+Domain Reload Profiling: 1066ms
+	BeginReloadAssembly (71ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (24ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (311ms)
-		LoadAssemblies (199ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (176ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (144ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (112ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (118ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (717ms)
+	FinalizeReload (644ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (627ms)
+		SetupLoadedEditorAssemblies (544ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
+			InitializePlatformSupportModulesInManaged (14ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (196ms)
-			ProcessInitializeOnLoadMethodAttributes (379ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (212ms)
+			ProcessInitializeOnLoadMethodAttributes (275ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.83 ms, found 10 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.92 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4862 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 109 unused Assets / (1.5 MB). Loaded Objects now: 5285.
-Memory consumption went from 175.3 MB to 173.9 MB.
-Total: 3.253916 ms (FindLiveObjects: 0.131333 ms CreateObjectMapping: 0.062125 ms MarkObjects: 2.508417 ms  DeleteObjects: 0.551208 ms)
+Memory consumption went from 175.4 MB to 173.9 MB.
+Total: 3.406833 ms (FindLiveObjects: 0.153333 ms CreateObjectMapping: 0.062459 ms MarkObjects: 2.645541 ms  DeleteObjects: 0.544666 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -211,273 +212,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 23096.280661 seconds.
+  Time since last request: 26185.432826 seconds.
+  path: Packages/com.unity.xr.arkit/Editor/Unity.XR.ARKit.Editor.asmdef
+  artifactKey: Guid(7910d4af31b741acb1bce1140634a975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arkit/Editor/Unity.XR.ARKit.Editor.asmdef using Guid(7910d4af31b741acb1bce1140634a975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29795d5ca31fdb66118bd41af83ccd34') in 0.001076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 47.117263 seconds.
   path: Assets/_BasicFaceFilter/Materials/Cloud_Particle.mat
   artifactKey: Guid(55852932b97324f479e960c23d816495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Materials/Cloud_Particle.mat using Guid(55852932b97324f479e960c23d816495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23e4c3af8fe89d2f046b405071f0d9b') in 0.064680 seconds
+Start importing Assets/_BasicFaceFilter/Materials/Cloud_Particle.mat using Guid(55852932b97324f479e960c23d816495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0849c3a9dd21363cb0a807707392111') in 0.107991 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/_BasicFaceFilter/Materials/Filter1_MAT.mat
-  artifactKey: Guid(7d9cbf51bc55785428d1a4ea9c9647e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Materials/Filter1_MAT.mat using Guid(7d9cbf51bc55785428d1a4ea9c9647e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a95f85fc74f28e1b71b81f7890f11d') in 0.005357 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/_BasicFaceFilter/Materials
-  artifactKey: Guid(240aa1ba7d5f0a84980bf9e66734a457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Materials using Guid(240aa1ba7d5f0a84980bf9e66734a457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa4f3a6b6c4c567fab04e41b896ab70') in 0.000131 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/_BasicFaceFilter/Materials/Flame2_Particle.mat
-  artifactKey: Guid(c4bfa10a32e160749933d1aa8ab0bf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Materials/Flame2_Particle.mat using Guid(c4bfa10a32e160749933d1aa8ab0bf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3de81f4cb4c89068503b646e517fb9e') in 0.004992 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/_BasicFaceFilter/Materials/WispySmoke_Particle.mat
-  artifactKey: Guid(686180aab404feb46b7ff6943ca78fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Materials/WispySmoke_Particle.mat using Guid(686180aab404feb46b7ff6943ca78fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fc0a7d907ae7fbe8b13dbdc73d4993') in 0.004419 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/_BasicFaceFilter/Materials/Magic_Particle.mat
-  artifactKey: Guid(6f676922a6fb04d4685159a57d04faf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Materials/Magic_Particle.mat using Guid(6f676922a6fb04d4685159a57d04faf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5d0c3822450269779896be313df4b7') in 0.003672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/_BasicFaceFilter/Materials/FaceTemplate.mat
-  artifactKey: Guid(94bc970bc540594418da619b8dae2df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Materials/FaceTemplate.mat using Guid(94bc970bc540594418da619b8dae2df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68350a90cc8f92d0032ef2bd8eff47b') in 0.002894 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/_BasicFaceFilter/Materials/Face Debug MAT.mat
-  artifactKey: Guid(d5b24823eb2bd0f4990a6c8dc134fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Materials/Face Debug MAT.mat using Guid(d5b24823eb2bd0f4990a6c8dc134fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd216d32eed99f8d568ea68045776c35d') in 0.002725 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/_BasicFaceFilter/Materials/PropsMaterial.mat
-  artifactKey: Guid(233e05d0ec461054eb551774c6d782a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Materials/PropsMaterial.mat using Guid(233e05d0ec461054eb551774c6d782a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d39aee1427df1fb6c2e213e61975520') in 0.010753 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/_BasicFaceFilter/Materials/Raindrop_Particle.mat
-  artifactKey: Guid(d626c3faf89bd9446a274676445871af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Materials/Raindrop_Particle.mat using Guid(d626c3faf89bd9446a274676445871af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9506968ff252879fdc1d5f07f9d51b97') in 0.003748 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/_BasicFaceFilter/Materials/Star_Particle 1.mat
-  artifactKey: Guid(2126b0bd689d7744eac3c0d940dc96f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Materials/Star_Particle 1.mat using Guid(2126b0bd689d7744eac3c0d940dc96f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954ce15dabe3338b4633541a6bcf2f4d') in 0.003057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/_BasicFaceFilter/Materials/Particles.mat
-  artifactKey: Guid(cdab51151839a8e4ea0a259c284f81fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Materials/Particles.mat using Guid(cdab51151839a8e4ea0a259c284f81fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4799f1e5a4fcf4f5773f1e53ec1255b') in 0.002967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/_BasicFaceFilter/Materials/Star_Particle.mat
-  artifactKey: Guid(a115bbd745b7bca4c84cbce25ee53f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Materials/Star_Particle.mat using Guid(a115bbd745b7bca4c84cbce25ee53f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd5e499005a79a0eff955aa622859b2') in 0.003093 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/_BasicFaceFilter/Materials/Flame1_Particle.mat
-  artifactKey: Guid(8ea66f8123460894c966b178627e9318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Materials/Flame1_Particle.mat using Guid(8ea66f8123460894c966b178627e9318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e4ca62058ce3d2e9ddfc48e2279c52') in 0.003494 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 165.414378 seconds.
-  path: Packages/com.unity.xr.arfoundation/Assets/Materials/DebugFace.mat
-  artifactKey: Guid(35bd980c8f2234e3d8b640e25a677d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/DebugFace.mat using Guid(35bd980c8f2234e3d8b640e25a677d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724f9b6789a8f6b1e58c3a7888190af7') in 0.039111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationDefaultTrackedImage.mat
-  artifactKey: Guid(7f1d579c79ac0442e8d4a7f213a675d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationDefaultTrackedImage.mat using Guid(7f1d579c79ac0442e8d4a7f213a675d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125d388257a716e9ae09bc30cb448846') in 0.025244 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationBodyMaterial.mat
-  artifactKey: Guid(a4487a0c19d31684c91760d7b608f795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationBodyMaterial.mat using Guid(a4487a0c19d31684c91760d7b608f795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1851c111cf427eb7550dda2905509c3c') in 0.146032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationSuitMaterial.mat
-  artifactKey: Guid(ff97e31c61928db42a4a403b8d642fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationSuitMaterial.mat using Guid(ff97e31c61928db42a4a403b8d642fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1820080d1b0362a069bb0780774e8a14') in 0.004334 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Packages/com.unity.xr.arfoundation/Assets/Materials/YAxis.mat
-  artifactKey: Guid(743dbe898e46f4e27b435f79a524f27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/YAxis.mat using Guid(743dbe898e46f4e27b435f79a524f27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed9d73328b66f71d94472fa794430eb') in 0.042453 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Packages/com.unity.xr.arfoundation/Assets/Materials/XAxis.mat
-  artifactKey: Guid(a23d1b0dc553640f682d502af95e7789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/XAxis.mat using Guid(a23d1b0dc553640f682d502af95e7789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385a740374ba8ae5a0e31fd52960cdc9') in 0.003353 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationLitGray.mat
-  artifactKey: Guid(950042044eb8b45cfb957653439b0be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationLitGray.mat using Guid(950042044eb8b45cfb957653439b0be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aee16ce129ff5c828e0f98807111010') in 0.004189 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationPlaneMaterial.mat
-  artifactKey: Guid(b701fb6055e5bf44b84cbe041121eb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationPlaneMaterial.mat using Guid(b701fb6055e5bf44b84cbe041121eb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d51c796993ca513495327a5ba105782') in 0.217840 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 501.154183 seconds.
-  path: Assets/_BasicFaceFilter/Prefabs
-  artifactKey: Guid(b71f42f3b9553b9408fd649ecc0e7dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Prefabs using Guid(b71f42f3b9553b9408fd649ecc0e7dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0ff0e6f26708fd573876938bf30406') in 0.002145 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.031290 seconds.
-  path: Assets/_BasicFaceFilter/Prefabs/Face_Reference_Mesh.prefab
-  artifactKey: Guid(bc8e54b1d62bd2f499826cdfa9d5d708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Prefabs/Face_Reference_Mesh.prefab using Guid(bc8e54b1d62bd2f499826cdfa9d5d708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0beabffae1807873a4175f16b4d25e57') in 0.039354 seconds
+  path: Assets/_BasicFaceFilter/Meshes/Face_Reference_Mesh.fbx
+  artifactKey: Guid(0a840f06779b2ea45a882b3c57b12fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Meshes/Face_Reference_Mesh.fbx using Guid(0a840f06779b2ea45a882b3c57b12fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6b6120af0c28f0825e8f6bc2e5fad6') in 0.042267 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 17
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/_BasicFaceFilter/Prefabs/Props_CrazyEyes.prefab
-  artifactKey: Guid(e1ecc5d8ad4385a4688bbf80596ee6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Prefabs/Props_CrazyEyes.prefab using Guid(e1ecc5d8ad4385a4688bbf80596ee6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a75ff220a0df4022fedb41e2d1465d') in 0.042589 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/ExampleAssets/Materials/PlacedCubeMat.mat
+  artifactKey: Guid(0ce7ca15cd93341beb67396a494cef55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PlacedCubeMat.mat using Guid(0ce7ca15cd93341beb67396a494cef55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a84ee347995c2e766dfa989cf783c9a') in 0.003463 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/_BasicFaceFilter/Prefabs/Props_GoblinEars.prefab
-  artifactKey: Guid(edc1d60fdecc9b24a86754ea5f76ec3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Prefabs/Props_GoblinEars.prefab using Guid(edc1d60fdecc9b24a86754ea5f76ec3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e950fb31c735bfd99b0250c04ae6dc22') in 0.005120 seconds
+  Time since last request: 0.000505 seconds.
+  path: Assets/_BasicFaceFilter/Meshes/Props_CatEars.fbx
+  artifactKey: Guid(0ec72729885335045b3c3b4cd436f890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Meshes/Props_CatEars.fbx using Guid(0ec72729885335045b3c3b4cd436f890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cdb2cb7f6ae6a5c014f2925b32a367e') in 0.019759 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/_BasicFaceFilter/Prefabs/Props_HiHat.prefab
-  artifactKey: Guid(bb955633cf56f1f48a897b385ca04e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Prefabs/Props_HiHat.prefab using Guid(bb955633cf56f1f48a897b385ca04e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3a4abea3bc157eca59f25336350c09') in 0.011280 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/_BasicFaceFilter/Prefabs/Props_Horns.prefab
-  artifactKey: Guid(0cf6f8839032dd44da3842a706ab9963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Prefabs/Props_Horns.prefab using Guid(0cf6f8839032dd44da3842a706ab9963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d38a6d50d52b36331c99ea377dae4e3') in 0.005721 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/_BasicFaceFilter/Prefabs/Props_CatNose.prefab
-  artifactKey: Guid(cdbd3952e4784a9468547b3b0f4c0857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Prefabs/Props_CatNose.prefab using Guid(cdbd3952e4784a9468547b3b0f4c0857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29cb88591d90d209d5fc5a4864e4e1e6') in 0.007042 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/_BasicFaceFilter/Prefabs/Props_CatEars.prefab
-  artifactKey: Guid(dec9cb245c0fee64b89e7397e32a289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Prefabs/Props_CatEars.prefab using Guid(dec9cb245c0fee64b89e7397e32a289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7e5d31c66681d79651e9211b8e8099') in 0.005591 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/_BasicFaceFilter/Prefabs/Props_Moustache.prefab
-  artifactKey: Guid(c19af72d0001ce34c82ba1c7a3f5cea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Prefabs/Props_Moustache.prefab using Guid(c19af72d0001ce34c82ba1c7a3f5cea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6676d76944ae4ed2bf8dde7797ba4d51') in 0.007278 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/_BasicFaceFilter/Prefabs/Props_GrinningTeeth.prefab
-  artifactKey: Guid(ddbe0a16110c98642ac4050ccca8feab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Prefabs/Props_GrinningTeeth.prefab using Guid(ddbe0a16110c98642ac4050ccca8feab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b30c09129f074fb36601662bb6a28c') in 0.005503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 14.327446 seconds.
-  path: Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab
-  artifactKey: Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Prefabs/AR Default Face.prefab using Guid(d8f5a518eb835462f83c8661f0f0e028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b7516baa2539b22a461fbb8237d7d7') in 0.001883 seconds
+  Time since last request: 0.000053 seconds.
+  path: Assets/_BasicFaceFilter/Meshes/Props_HiHat.fbx
+  artifactKey: Guid(b5541a6ad37796b4e94dfabfe67ba396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_BasicFaceFilter/Meshes/Props_HiHat.fbx using Guid(b5541a6ad37796b4e94dfabfe67ba396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a241d09544913475a50da7edaedaf5d8') in 0.010651 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 1076.986276 seconds.
-  path: Assets/_BasicFaceFilter/Prefabs/Face_Reference_Mesh.prefab
-  artifactKey: Guid(bc8e54b1d62bd2f499826cdfa9d5d708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_BasicFaceFilter/Prefabs/Face_Reference_Mesh.prefab using Guid(bc8e54b1d62bd2f499826cdfa9d5d708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d30873243aa77029da7d8767757260c') in 0.032049 seconds
+  Time since last request: 0.000766 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Prefabs/Handles.fbx
+  artifactKey: Guid(405ff1b6d34178a4a987fc2f6908a1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Prefabs/Handles.fbx using Guid(405ff1b6d34178a4a987fc2f6908a1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e101631dcce95ff0639a1e20acf1f9e9') in 0.058467 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
+Number of asset objects unloaded after import = 34
